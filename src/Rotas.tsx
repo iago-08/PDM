@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Redirect, Route } from 'react-router-dom';
 import { IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import Home from './pages/Home';
@@ -14,8 +14,8 @@ const Rotas: React.FC = () => (
   
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route path="/home" component={Home} exact={true} />
-       
+        <Route path="/home"  component={Home} exact={true} />
+        <Redirect exact from="/" to="/home" />
         <Route path="/Pagina1" component={Pagina1} exact={true} />  
         <Route path="/Pagina2" component={Pagina2} exact={true} />  
       </IonRouterOutlet>
