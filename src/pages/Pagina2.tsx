@@ -26,7 +26,7 @@ const Pagina2: React.FC = () => {
                         <IonButtons slot="start">
                             <IonMenuButton ></IonMenuButton>
                         </IonButtons>
-                        <IonTitle>Exemplo 2</IonTitle>
+                        <IonTitle>Questao Extraa</IonTitle>
                     </IonToolbar>
                     <IonToolbar>
                         <IonSearchbar></IonSearchbar>

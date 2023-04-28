@@ -26,7 +26,7 @@ const Page1: React.FC = () => {
                         <IonButtons slot="start">
                             <IonMenuButton ></IonMenuButton>
                         </IonButtons>
-                        <IonTitle>Exemplo 2</IonTitle>
+                        <IonTitle>Questao 2</IonTitle>
                     </IonToolbar>
                 </IonHeader>
                 <IonContent className="ion-padding">

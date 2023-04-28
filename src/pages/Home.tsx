@@ -5,7 +5,7 @@ import React from 'react';
 
 
 
-let arr = ['a', 'b', 'c', 'd']
+
 
 const Home: React.FC = () => {
 
